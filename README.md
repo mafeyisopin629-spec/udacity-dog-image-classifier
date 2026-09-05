@@ -55,6 +55,7 @@ The main objectives of this project were to:
 ├── resnet_pet-images.txt
 ├── alexnet_pet-images.txt
 └── vgg_pet-images.txt
+```
 
 # How the Program Works
 
