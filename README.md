@@ -2,7 +2,7 @@
 
 Python image classification project comparing ResNet, AlexNet, and VGG using pre-trained CNN models. Built to evaluate dog detection, breed classification accuracy, and model runtime.
 
-## Project Overview
+# Project Overview
 
 This project was completed as part of the Udacity AWS AI Programming learning track.
 
@@ -14,7 +14,7 @@ The goal of the project is to use Python with pre-trained convolutional neural n
 
 The project focuses on using Python to process image data, organize classification results, calculate accuracy statistics, and compare model performance.
 
-## Objectives
+# Objectives
 
 The main objectives of this project were to:
 
@@ -23,7 +23,7 @@ The main objectives of this project were to:
 3. Compare the performance of ResNet, AlexNet, and VGG.
 4. Compare model accuracy with execution time to determine the best overall model.
 
-## Technologies Used
+# Technologies Used
 
 - Python
 - PyTorch
@@ -34,7 +34,7 @@ The main objectives of this project were to:
 - File handling
 - Bash scripting
 
-## Project Structure
+# Project Structure
 
 ```text
 .
@@ -56,7 +56,7 @@ The main objectives of this project were to:
 ├── alexnet_pet-images.txt
 └── vgg_pet-images.txt
 
-## How the Program Works
+# How the Program Works
 
 The program follows this workflow:
 
@@ -69,20 +69,20 @@ The program follows this workflow:
 7. Prints the final results.
 8. Compares the performance of all three CNN architectures.
 
-## Running the Project
+# Running the Project
 
 Run the program with:
 python check_images.py --dir pet_images/ --arch vgg --dogfile dognames.txt
 
-## Available model architectures:
+# Available model architectures:
 resnet
 alexnet
 vgg
 
-Example:
+# Example:
 python check_images.py --dir pet_images/ --arch resnet --dogfile dognames.txt
 
-## Running All Models
+# Running All Models
 
 To run all three CNN architectures automatically:
 sh run_models_batch.sh
@@ -92,7 +92,7 @@ resnet_pet-images.txt
 alexnet_pet-images.txt
 vgg_pet-images.txt
 
-## Model Results
+# Model Results
 | Model   | Dogs Correct | Non-Dogs Correct | Breeds Correct | Overall Label Match |
 | ------- | -----------: | ---------------: | -------------: | ------------------: |
 | ResNet  |       100.0% |            90.0% |          90.0% |               82.5% |
@@ -100,7 +100,7 @@ vgg_pet-images.txt
 | VGG     |       100.0% |           100.0% |          93.3% |               87.5% |
 
 
-## Best Performing Model
+# Best Performing Model
 
 VGG produced the strongest overall results.
 
@@ -113,7 +113,7 @@ It achieved:
 
 Although VGG required more execution time than ResNet and AlexNet, it provided the best overall accuracy for the main project objectives.
 
-## Custom Image Testing
+# Custom Image Testing
 
 The completed program was also tested using four uploaded images:
 
@@ -128,7 +128,7 @@ AlexNet correctly classified the original dog image but classified the rotated i
 
 This demonstrates how image orientation can affect model predictions.
 
-## Key Skills Demonstrated
+# Key Skills Demonstrated
 
 This project demonstrates experience with:
 
@@ -145,19 +145,19 @@ Runtime comparison
 Bash scripting
 Debugging Python programs
 
-## Final Conclusion
+# Final Conclusion
 
 VGG was the best CNN model architecture for the main project because it correctly classified dogs and non-dogs with 100% accuracy and achieved the highest dog-breed classification accuracy at 93.3%.
 
 ResNet provided a strong alternative because it completed classification much faster while still achieving 90% breed accuracy.
 
-## Author
+# Author
 
 Mafeyisopin Ayeni
 
 GitHub: mafeyisopin629-spec
 
-## Acknowledgements
+# Acknowledgements
 
 This project was completed as part of the Udacity AWS AI Programming curriculum.
 
