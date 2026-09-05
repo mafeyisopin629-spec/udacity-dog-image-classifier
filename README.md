@@ -73,6 +73,7 @@ The program follows this workflow:
 # Running the Project
 
 Run the program with:
+
 python check_images.py --dir pet_images/ --arch vgg --dogfile dognames.txt
 
 # Available model architectures:
@@ -86,6 +87,7 @@ python check_images.py --dir pet_images/ --arch resnet --dogfile dognames.txt
 # Running All Models
 
 To run all three CNN architectures automatically:
+
 sh run_models_batch.sh
 
 This produces:
@@ -108,8 +110,11 @@ VGG produced the strongest overall results.
 It achieved:
 
 100% accuracy identifying dog images
+
 100% accuracy identifying non-dog images
+
 93.3% accuracy identifying dog breeds
+
 87.5% overall label match accuracy
 
 Although VGG required more execution time than ResNet and AlexNet, it provided the best overall accuracy for the main project objectives.
@@ -134,16 +139,27 @@ This demonstrates how image orientation can affect model predictions.
 This project demonstrates experience with:
 
 Python programming
+
 Working with pre-trained machine learning models
+
 Image classification
+
 Data structures
+
 Functions
+
 File processing
+
 Command-line interfaces
+
 Model evaluation
+
 Accuracy metrics
+
 Runtime comparison
+
 Bash scripting
+
 Debugging Python programs
 
 # Final Conclusion
